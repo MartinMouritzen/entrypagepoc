@@ -14,19 +14,6 @@ const sectionIcons = {
 	classifiedAddendum: "🛑"
 };
 
-// Sidebar outline icons (different than tab icons)
-const outlineIcons = {
-	generalInfo: "📝",
-	starshipSpecs: "🚢",
-	crewManifest: "👨‍👩‍👧‍👦",
-	missionDetails: "🎯",
-	incidentReports: "⚠️",
-	environmentalData: "🌍",
-	technicalLogs: "💻",
-	attachedMedia: "🎬",
-	classifiedAddendum: "🔒"
-};
-
 const StarshipLogEntryInterface = () => {
 	const [activeTab, setActiveTab] = useState('generalInfo');
 	const [favorites, setFavorites] = useState({});
